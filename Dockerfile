@@ -1,10 +1,10 @@
-FROM node:16.14.2
+FROM node:latest
 
 WORKDIR /app
 
 COPY ./app /app/
 
-RUN npm install -g yarn
+#RUN npm install --global yarn
 
 RUN yarn
 
