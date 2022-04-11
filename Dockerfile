@@ -6,8 +6,8 @@ COPY ./app /app/
 
 RUN npm install -g yarn
 
-CMD ["yarn"]
+RUN yarn
 
-CMD ["yarn", "build"]
+RUN yarn build
 
 CMD ["yarn", "watch"]
