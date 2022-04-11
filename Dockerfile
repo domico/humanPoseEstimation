@@ -11,3 +11,5 @@ RUN yarn
 RUN yarn build
 
 CMD ["yarn", "watch"]
+
+EXPOSE 1234
